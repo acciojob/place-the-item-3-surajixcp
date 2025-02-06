@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;              /* Enable flexbox layout */
+    flex-wrap: wrap;           /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Evenly space items in the row */
+}
+
+.item {
+    background-color: #f0f0f0; /* Light gray background for items */
+    padding: 10px;             /* Padding around the items */
+    margin: 5px;               /* Margin between items */
+    flex: 1;                   /* Allow items to grow and fill space */
+    min-width: 100px;          /* Minimum width for each item */
+}
